@@ -10,29 +10,14 @@
 - VCRedistx64 (If Release is set to x64)
 
 
-# How to compile :
+# Installing dependencies :
 
 ```
-Open cmd
-```
-```
-- git clone https://github.com/Microsoft/vcpkg.git
-```
-```
-- cd vcpkg
-```
-```
-- bootstrap-vcpkg.sh
-```
-```
-- vcpkg integrate install
-```
-```
-- vcpkg install libcurl
-```
-```
-- vcpkg install jsoncpp
-```
-```
-- vcpkg install wintoastlib
+git clone https://github.com/Microsoft/vcpkg.git
+cd vcpkg
+bootstrap-vcpkg.sh
+vcpkg integrate install
+vcpkg install libcurl
+vcpkg install jsoncpp
+vcpkg install wintoastlib
 ```
